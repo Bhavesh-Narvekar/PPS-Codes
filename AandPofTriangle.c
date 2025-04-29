@@ -1,6 +1,6 @@
 //Bhavesh Nilesh Narvekar
 //PRN-24030331378016
-//Code-Division Of Two Number By Taking Input From User
+//Code-Find Area and Perimeter Of Rectangle
 //Branch-VLSI
 #include<stdio.h>
 int main()
