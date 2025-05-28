@@ -1,20 +1,18 @@
-//Bhavesh Nilesh Narvekar
-//PRN-24030331378016
-//Code-Revers Pyramid Using Stars
-//Branch-VLSI
+c
 
 #include <stdio.h>
 
 int main() 
 {
-    int rows = 3, i, j, k;
-    for (i = rows; i >= 1; i--)  
+    int i, j, k;
+    for (i = 3; i >= 1; i--)  
     {
-        for (j = 1; j <= rows - i; j++)  
+        for (j = 1; j <= 3 - i; j++)  
         {
             printf(" ");
         }
-        for (k = 1; k <= 2 * i - 1; k++)  
+        
+        for (k = 1; k <= 2 * i - 1; k++) 
         {
             printf("*");
         }
